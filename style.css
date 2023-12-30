@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+.btn{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+#colorName{
+    margin: 12px 0px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+
+}
+ul{
+    bottom: 12px;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 12px;
+}
+ul a:hover{
+    color:skyblue;
+}
+.container{
+    background-color: white;
+
+}
+#title{
+    position: relative;
+ top: 12px;
+ left: 12px;
+    font-size: 19px;
+    color: skyblue;
+}
